@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace URLShortener.Controllers
 {
-    public class BlueBinCntroller : Controller
+    public class BlueBinController : Controller
     {
+        URLShortener.Contexts.URLShortenerContext context = new Contexts.URLShortenerContext();
         // GET: BlueBinCntroller
         public ActionResult Index()
         {
-            return View();
+            var list = context.Urls.ToList();
+            return View(list);
         }
 
         // GET: BlueBinCntroller/Details/5
@@ -30,13 +32,18 @@ namespace URLShortener.Controllers
         // POST: BlueBinCntroller/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
+        public ActionResult Create(URLShortener.Models.Url url)
+        {            
             try
             {
-                return RedirectToAction(nameof(Index));
+                URLShortener.Logic.URLShortenerService shortenerService = new Logic.URLShortenerService(url.UrlOriginal, null);
+                string shortenedUrl = shortenerService.shortenUrl();
+                url.UrlShortened = shortenedUrl;
+                context.Urls.Add(url);
+                context.SaveChanges();
+                return RedirectToAction(nameof(Index), url);
             }
-            catch
+            catch(Exception ex)
             {
                 return View();
             }

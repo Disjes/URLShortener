@@ -50,7 +50,7 @@ namespace URLShortener
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=BlueBin}/{action=Create}/{id?}");
             });
         }
     }
