@@ -40,11 +40,9 @@ namespace URLShortener.Contexts
                 entity.ToTable("urls");
 
                 entity.Property(e => e.UrlCode)
-                    .ValueGeneratedNever()
                     .HasColumnName("url_code");
 
                 entity.Property(e => e.UrlOriginal)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("url_original");
 

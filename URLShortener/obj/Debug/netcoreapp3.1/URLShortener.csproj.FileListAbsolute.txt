@@ -8,7 +8,6 @@ C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreap
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\URLShortener.pdb
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\URLShortener.Views.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\URLShortener.Views.pdb
-C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -32,7 +31,6 @@ C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreap
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
@@ -168,3 +166,7 @@ C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreap
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\obj\Debug\netcoreapp3.1\Razor\Views\BlueBin\Create.cshtml.g.cs
 C:\Users\David Robles\source\repos\URLShortener\URLShortener\obj\Debug\netcoreapp3.1\Razor\Views\BlueBin\Index.cshtml.g.cs
+C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\David Robles\source\repos\URLShortener\URLShortener\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll

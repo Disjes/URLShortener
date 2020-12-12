@@ -41,7 +41,7 @@ namespace URLShortener.Controllers
                 url.UrlShortened = shortenedUrl;
                 context.Urls.Add(url);
                 context.SaveChanges();
-                return RedirectToAction(nameof(Index), url);
+                return View("Index", url);
             }
             catch(Exception ex)
             {
